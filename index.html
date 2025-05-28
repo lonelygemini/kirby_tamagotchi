@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tamagotchi: KIRBY EDITION</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <div id="tamagotchi-image">
+        <img id="tamagotchi-face" src="images/normal.png" alt="Tamagotchi" />
+      </div>
+
+    <div id="message-box">Hello, my name is Kirby!</div>
+
+    <div class="stats">
+      <p>Hunger: <span id="hunger">5</span></p>
+      <p>Happiness: <span id="happiness">5</span></p>
+    </div>
+
+    <div class="buttons">
+        <div id="feed-btn" class="btn">Feed</div>
+        <div id="play-btn" class="btn">Play</div>
+        <div id="reset-btn" class="btn">Reset</div>
+      </div>
+      
+  <audio id="feed-sound" src="sounds/feed.mp3"></audio>
+  <audio id="play-sound" src="sounds/play.mp3"></audio>
+  <audio id="reset-sound" src="sounds/reset.mp3"></audio>
+  <audio id="sleep-sound" src="sounds/sleep.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
