@@ -119,7 +119,7 @@ function reset() {
     updateStats();
 })
 
-// Automatisch updaten bij starten
+// Automatic updates by the start
 updateStats()
 
 // The character and sounds are from Nintendo. https://www.nintendo.co.jp/networkservice_guideline/en/index.html
